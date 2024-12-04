@@ -20,7 +20,7 @@ const skills = [
   {
     category: 'DevOps',
     items: ['Docker', 'Jenkins CI/CD'],
-    progress: 50,
+    progress: 40,
   },
 ];
 

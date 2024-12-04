@@ -39,14 +39,16 @@ export default function Hero() {
             <FeatureIcon icon={Monitor} label="cloud monitoring" />
             <FeatureIcon icon={Smartphone} label="App mobile" />
           </div>
-
-          <motion.button
+<a href="#services">
+<motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-3 rounded-full font-medium text-lg shadow-lg hover:shadow-xl transition-shadow"
           >
             Découvrir mes services
           </motion.button>
+</a>
+          
         </motion.div>
       </div>
 
